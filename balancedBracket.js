@@ -1,6 +1,4 @@
-import * as readline from "node:readline";
-
-function isBalanced(s) {
+export default function isBalanced(s) {
   let startingBrackets = ["(", "{", "["];
   let endingBrackets = [")", "}", "]"];
   let isBalancedStr;
@@ -51,16 +49,4 @@ function isBalanced(s) {
   }
 
   return isBalancedStr;
-}
-
-export default function isStringBalanced() {
-  const read = readline.createInterface({
-    input: process.stdin,
-    output: process.stdout,
-  });
-
-  read.question(`Please enter the string: `, (str) => {
-    console.log(isBalanced(str));
-    read.close();
-  });
 }

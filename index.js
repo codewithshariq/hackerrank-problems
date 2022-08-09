@@ -1,3 +1,2 @@
-import isStringBalanced from "./balancedBracket.js";
-
-isStringBalanced();
+import isBalanced from "./balancedBracket";
+import processData from "./queueUsingTwoStacks";
