@@ -1,4 +1,4 @@
-export default function processData(input) {
+export default function queueUsingTwoStacks(input) {
   //Enter your code here
   const queue = [];
   const arr = input.split(/[\r\n]/g);

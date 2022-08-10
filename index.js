@@ -1,2 +1,3 @@
 import isBalanced from "./balancedBracket";
-import processData from "./queueUsingTwoStacks";
+import simpleTextEditor from "./simpleTextEditor";
+import queueUsingTwoStacks from "./queueUsingTwoStacks";
