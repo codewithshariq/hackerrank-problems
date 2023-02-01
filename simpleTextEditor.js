@@ -1,5 +1,4 @@
-export default function simpleTextEditor(input) {
-  //Enter your code here
+function simpleTextEditor(input) {
   let str = "";
   let prevStrs = [];
   let inputArr = input.split(/[\r\n]/g);
@@ -34,3 +33,5 @@ export default function simpleTextEditor(input) {
     }
   }
 }
+
+module.exports = simpleTextEditor;

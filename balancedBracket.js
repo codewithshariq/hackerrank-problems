@@ -1,4 +1,4 @@
-export default function isBalanced(s) {
+function isBalanced(s) {
   let startingBrackets = ["(", "{", "["];
   let endingBrackets = [")", "}", "]"];
   let isBalancedStr;
@@ -50,3 +50,5 @@ export default function isBalanced(s) {
 
   return isBalancedStr;
 }
+
+module.exports = isBalanced;

@@ -1,5 +1,4 @@
-export default function queueUsingTwoStacks(input) {
-  //Enter your code here
+function queueUsingTwoStacks(input) {
   const queue = [];
   const arr = input.split(/[\r\n]/g);
   //Because first line represents the no of queries
@@ -24,3 +23,5 @@ export default function queueUsingTwoStacks(input) {
     }
   }
 }
+
+module.exports = queueUsingTwoStacks;

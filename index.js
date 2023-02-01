@@ -1,3 +1,4 @@
-import isBalanced from "./balancedBracket";
-import simpleTextEditor from "./simpleTextEditor";
-import queueUsingTwoStacks from "./queueUsingTwoStacks";
+const isBalanced = require("./balancedBracket");
+const simpleTextEditor = require("./simpleTextEditor");
+const queueUsingTwoStacks = require("./queueUsingTwoStacks");
+const diagonalDifference = require("./diagonalDifference");
